@@ -11,3 +11,7 @@ def average_after_removing_powerofTwo(arr):
             new_arr += num
             count += 1
     return int(new_arr / count if count > 0 else 0)
+N=int(input())
+arr=list(map(int, input().split()))
+print(average_after_removing_powerofTwo(arr))
+
